@@ -16,6 +16,8 @@ void tomatoPrice();
 void reversedTriangle();
 // 1.3 Cache cache
 void hideAndSeek();
+// 1.4 La classe point
+void pointClass();
 
 
 

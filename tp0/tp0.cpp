@@ -3,6 +3,7 @@
 //
 
 #include "tp0.h"
+#include "Point.h"
 
 // 1. Exercices en C et C++
 // 1.1 Le prix de la patate
@@ -74,4 +75,13 @@ void hideAndSeek() {
         }
     found ? printf("V se trouve dans le tableau") : printf("V ne se trouve pas dans le tableau");
     fflush(stdout);
+}
+
+// 1.4 La classe point
+void pointClass() {
+    Point p1 = Point(1.5, 1.5);
+    p1.affiche();
+    p1.deplace(1.0,1.0);
+    p1.affiche();
+    p1.milieu(p1, Point(5.0,5.0)).affiche();
 }
