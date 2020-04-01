@@ -51,3 +51,27 @@ void reversedTriangle() {
         fflush(stdout);
     }
 }
+
+
+// 1.3 Cache cache
+#define size 10
+void hideAndSeek() {
+    int arr[size];
+    for (int i = 0; i < size; i++) {
+        printf("Saisissez l'entier %d / %d :\n", (i+1), size);
+        fflush(stdout);
+        scanf_s("%d", &arr[i]);
+    }
+    printf("Saisissez un entier :");
+    fflush(stdout);
+    int v;
+    bool found = false;
+    scanf_s("%d", &v);
+    for (int i : arr)
+        if (i == v) {
+            found = true;
+            break;
+        }
+    found ? printf("V se trouve dans le tableau") : printf("V ne se trouve pas dans le tableau");
+    fflush(stdout);
+}

@@ -1,8 +1,11 @@
 #include "tp0.h"
 
 int main() {
-//    tomatoPrice();
+    /*
+    tomatoPrice();
     reversedTriangle();
+     */
+    hideAndSeek();
     return 0;
 }
 

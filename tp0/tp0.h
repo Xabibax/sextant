@@ -14,5 +14,9 @@ using namespace std;
 void tomatoPrice();
 // 1.2 Le triangle inversé
 void reversedTriangle();
+// 1.3 Cache cache
+void hideAndSeek();
+
+
 
 #endif //TP0_TP0_H
